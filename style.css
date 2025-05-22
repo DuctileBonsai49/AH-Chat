@@ -57,6 +57,14 @@ button {
 }
 
 .verified {
-  color: #1da1f2;
-  font-weight: bold;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-left: 5px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
