@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="de">
 <head>
@@ -11,8 +10,10 @@
   <div class="chat-container">
     <div class="header">
       <h2>AH Chat</h2>
-      <span class="verified">✔</span>
-      <span id="userDisplay"></span>
+      <div class="user-info">
+        <span id="userDisplay"></span>
+        <img id="verifiedBadge" src="verified.png" class="verified" alt="Verifiziert" style="display: none;" />
+      </div>
       <button onclick="logout()">Abmelden</button>
     </div>
     <div class="chat-box" id="chatBox"></div>
